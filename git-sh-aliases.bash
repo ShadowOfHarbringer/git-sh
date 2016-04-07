@@ -44,7 +44,6 @@ gitalias pl='git pull'          # mnemonic: pull merge
 gitalias pr='git pull --rebase' # mnemonic: pull rebase
 gitalias ph='git push'          # mnemonic: pull merge
 
-
 # git diff
 gitalias d='git diff'
 gitalias ds='git diff --stat'    # mnemonic: "diff stat"
@@ -53,6 +52,10 @@ gitalias ds='git diff --stat'    # mnemonic: "diff stat"
 gitalias hard='git reset --hard'
 gitalias soft='git reset --soft'
 gitalias scrap='git checkout HEAD'
+
+# git miscellaneous
+gitalias chrp='git cherry-pick'
+
 
 # hub pass-through aliases for new commands
 which hub > /dev/null 2> /dev/null && {
